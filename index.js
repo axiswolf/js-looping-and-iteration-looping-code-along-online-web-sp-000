@@ -18,6 +18,6 @@ const cards = [];
 }
 writeCards([ 'Lisa', 'Kaitlin', 'Jan' ], "birthday");
 
-for (let countdown = 10; countdown >= 0; countdown--) {
-  console.log(countdown);
+for (let countDown = 10; countDown >= 0; countDown--) {
+  console.log(countDown);
 }
