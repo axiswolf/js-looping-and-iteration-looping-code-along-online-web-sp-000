@@ -12,7 +12,7 @@ wrapGifts(gifts);
 function writeCards(names, type) {
 const cards = [];
   for (let i = 0; i < names.length; i++) {
-    console.log(`Thank you, ${name[i]}, for the wonderful ${type} gift!`);
+    cards.push(`Thank you, ${name[i]}, for the wonderful ${type} gift!`);
   }
 }
 writeCards([ 'Lisa', 'Kaitlin', 'Jan' ], "birthday");
